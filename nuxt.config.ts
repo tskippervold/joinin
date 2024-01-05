@@ -10,5 +10,6 @@ export default defineNuxtConfig({
       tailwindcss: {},
       autoprefixer: {}
     }
-  }
+  },
+  plugins: ["~/plugins/preline.client.ts"],
 })
