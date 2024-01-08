@@ -3,6 +3,13 @@ export default defineNuxtConfig({
   typescript: {
     typeCheck: true
   },
+  modules: [
+    'dayjs-nuxt'
+  ],
+  dayjs: {
+    plugins: ['localeData'],
+    locales: ['en', 'nb']
+  },
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
   postcss: {
